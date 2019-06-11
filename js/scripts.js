@@ -15,6 +15,7 @@ $(function(){
     // });
   });
   $("#showList").click(function(){
+    items.sort();
     items.forEach(function(item){
         $(".list").append("<li>"+item+ "</li>");
     });
